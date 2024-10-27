@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "i2c_sda_to_pin",
+					"strict" : false
+				},
+				{
+					"name" : "i2c_scl_to_pin",
+					"strict" : false
+				},
+				{
+					"name" : "reg_status",
+					"strict" : false
+				},
+				{
+					"name" : "clk_status",
+					"strict" : false
+				},
+				{
+					"name" : "sda",
+					"strict" : false
+				},
+				{
+					"name" : "scl",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

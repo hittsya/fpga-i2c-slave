@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at i2c_fpga.v(28): always construct contains both blocking and non-blocking assignments File: C:/Developer/fpga_stm32_i2c/i2c_fpga/i2c_fpga.v Line: 28

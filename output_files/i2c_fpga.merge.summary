@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Thu Sep 19 20:22:35 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : i2c_fpga
+Top-level Entity Name : i2c_fpga_top
+Family : Cyclone IV E
+Total logic elements : 698
+    Total combinational functions : 493
+    Dedicated logic registers : 496
+Total registers : 496
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 4,608
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

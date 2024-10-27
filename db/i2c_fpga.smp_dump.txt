@@ -1,0 +1,16 @@
+
+State Machine - |i2c_fpga_top|i2c_fpga:i2c_slave_inst|next_state
+Name next_state.I2C_RECEIVE_REGISTER_ADDR next_state.I2C_SEND_BYTE_FROM_REGISTER next_state.I2C_RECEIVE_DATA next_state.I2C_IDLE 
+next_state.I2C_IDLE 0 0 0 0 
+next_state.I2C_RECEIVE_DATA 0 0 1 1 
+next_state.I2C_SEND_BYTE_FROM_REGISTER 0 1 0 1 
+next_state.I2C_RECEIVE_REGISTER_ADDR 1 0 0 1 
+
+State Machine - |i2c_fpga_top|i2c_fpga:i2c_slave_inst|state
+Name state.I2C_RECEIVE_REGISTER_ADDR state.I2C_ACK_DATA state.I2C_SEND_BYTE_FROM_REGISTER state.I2C_RECEIVE_DATA state.I2C_READ_ADDR_AND_RW_BIT state.I2C_IDLE 
+state.I2C_IDLE 0 0 0 0 0 0 
+state.I2C_READ_ADDR_AND_RW_BIT 0 0 0 0 1 1 
+state.I2C_RECEIVE_DATA 0 0 0 1 0 1 
+state.I2C_SEND_BYTE_FROM_REGISTER 0 0 1 0 0 1 
+state.I2C_ACK_DATA 0 1 0 0 0 1 
+state.I2C_RECEIVE_REGISTER_ADDR 1 0 0 0 0 1 
